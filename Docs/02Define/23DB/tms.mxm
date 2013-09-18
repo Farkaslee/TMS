@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?><Model version="5.0">
+    <Configuration>
+        <Property name="dialect" value="MySQLDialect"/>
+        <Property name="ALIAS" value="tmsdb"/>
+        <Property name="DRIVER" value="com.mysql.jdbc.Driver"/>
+        <Property name="PASSWORD" value="tms"/>
+        <Property name="PROMPTFORPASSWORD" value="false"/>
+        <Property name="URL" value="jdbc:mysql://localhost:3306/tmsdb"/>
+        <Property name="USER" value="tms"/>
+    </Configuration>
+    <CustomTypes/>
+    <Domains/>
+    <Tables>
+        <Table id="30b3ddfa-673f-4f86-8765-0ac56aedfb10" name="user" schema="">
+            <Property name="LOCATION" value="138:31"/>
+            <Property name="engine" value="MyISAM"/>
+            <Attribute datatype="INTEGER" defaultvalue="" extra="" fraction="2" id="303f3d1f-ecab-4aec-9fa9-1b1183b67ad2" name="id" nullable="false" scale="10" size="10"/>
+            <Attribute datatype="VARCHAR" defaultvalue="" extra="" fraction="null" id="23315b7c-75ab-41b8-a2c3-71579d707c91" name="username" nullable="false" scale="10" size="50"/>
+            <Attribute datatype="VARCHAR" defaultvalue="" extra="" fraction="null" id="effa65fc-b96e-4a25-810e-1e2c086b3e22" name="password" nullable="false" scale="10" size="100"/>
+        </Table>
+    </Tables>
+    <Relations/>
+    <Views/>
+    <Subjectareas/>
+    <Comments/>
+</Model>
