@@ -4,14 +4,11 @@
   <classPathEntry location="/home/enixjin/Downloads/mysql-connector-java-5.1.22/mysql-connector-java-5.1.22-bin.jar"/>
   <context id="context1" >
     <jdbcConnection driverClass="com.mysql.jdbc.Driver" connectionURL="jdbc:mysql://localhost:3306/tmsdb" userId="tms" password="tms" />
-    <javaModelGenerator targetPackage="com.tms.domain" targetProject="TMSDomain" />
-    <sqlMapGenerator targetPackage="com.tms.persistence" targetProject="TMSDomain" />
-    <javaClientGenerator targetPackage="com.tms.persistence" targetProject="TMSDomain"  type="XMLMAPPER" />
-    <table schema="talanga" tableName="user" enableCountByExample="false" enableDeleteByExample="false" enableUpdateByExample="false" enableSelectByExample="false">
-    	<generatedKey column="ID" sqlStatement="MySql"/>
-    </table>
-    <table schema="tmsdb" tableName="employee" enableCountByExample="false" enableDeleteByExample="false" enableUpdateByExample="false" enableSelectByExample="false">
-    	<generatedKey column="ID" sqlStatement="MySql"/>
+    <javaModelGenerator targetPackage="com.tms.domain.model" targetProject="TMSDomain" />
+    <sqlMapGenerator targetPackage="com.tms.domain.persistence" targetProject="TMSDomain" />
+    <javaClientGenerator targetPackage="com.tms.domain.persistence" targetProject="TMSDomain"  type="XMLMAPPER" />
+    <table schema="tmsdb" tableName="user">
+    	<generatedKey column="id" sqlStatement="MySql"/>
     </table>
   </context>
 </generatorConfiguration>
