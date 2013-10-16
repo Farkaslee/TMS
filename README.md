@@ -4,6 +4,7 @@
 page:http://enixjin.github.io/TMS <br>
 Web application<br>
 Using following techonologies:<br>
+* AngularJS?<br>
 * Bootstrap<br>
 * Spring MVC 3.2.4.RELEASE<br>
 * Tiles 2.2<br>
