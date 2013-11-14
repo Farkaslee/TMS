@@ -8,5 +8,6 @@ Using following techonologies:<br>
 * Bootstrap<br>
 * Spring MVC 3.2.4.RELEASE<br>
 * Tiles 2.2<br>
-* mybatis<br>
+* mybatis 3.1.1<br>
+* Activiti as workflow engine<br>
 * Mysql<br>
